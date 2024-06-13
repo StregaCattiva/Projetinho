@@ -15,7 +15,7 @@
     }
     function desvia(btn) {
     	if(contador	>= 5){
-    		btn.textContent = "CLARO QUE SIM";
+    		setTimeout(()=>{btn.textContent = "CLARO QUE SIM";},100);
     		return;
     	}
         // btn declarado na função
